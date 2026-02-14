@@ -76,6 +76,8 @@ input:focus {
   border-color: #9face6;
 }
 
+/*Buttons*/
+
 button {
   padding: 12px;
   background-color: #6c63ff;
@@ -92,4 +94,12 @@ button {
 button:hover {
   background-color: #5146d9;
   transform: translateY(-2px);
+}
+
+/*Icons*/
+
+.weather-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
 }
