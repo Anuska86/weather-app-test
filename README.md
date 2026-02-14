@@ -1,23 +1,31 @@
-## Prueba Afor Clima 🌤️
-Crear una aplicacion web que permita al usuario ingresar una ubicacion y obtener el clima actual de esa area 
-utilizando la api API de openweathermap. La Prueba se realizara con html, JavaScript y CSS.
-- API = https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+# 🌦️ Weather App - Technical Test
 
-##  Instalación 🛠️
-1. Clonar el repositorio
-2. Instalar dependencias con `npm install` o con el empaquetador `pnpm install` o el que gustes
-3. Copiar el archivo `.env.template` a `.env` y pegar tu api key
-4. Ejecutar el servidor con `npm run dev` o `pnpm dev`
+This is my solution for the **Prueba Técnica de Afor**. The application allows users to search for a city and get real-time weather data using the OpenWeatherMap API.
 
+## 🚀 Features
+- [ ] Real-time city search.
+- [ ] Display temperature in Celsius.
+- [ ] Show weather conditions (icons/description).
+- [ ] Mobile-responsive design.
 
-## Interfaz de usuario 📱
-- Un campo de entrada para ingresar la ubicación.
-- Un botón para enviar la consulta.
-- Un área para mostrar los resultados del clima (temperatura, condiciones meteorológicas, humedad, etc.).
-- Manejo de errores para situaciones como ciudad no encontrada.
+## 🛠️ Built With
+- **Vite** (Build tool)
+- **Vanilla JavaScript**
+- **CSS3** (Custom styling)
+- **OpenWeatherMap API**
 
-## API de Clima 🌡️
-  - Utilizar la API de openweathermap para obtener los datos de clima.
-  https://openweathermap.org/api
-  
-  
+## ⚙️ Setup Instructions
+1. **Clone the repository:**
+   `git clone https://github.com/Anuska86/weather-app-test.git`
+2. **Install dependencies:**
+   `npm install`
+3. **Set up environment variables:**
+   - Create a `.env` file in the root directory.
+   - Add your API key: `VITE_API_KEY=your_actual_key_here`
+4. **Run the development server:**
+   `npm run dev`
+
+---
+
+## 📝 Original Instructions
+> [PASTE THE TEXT FROM YOUR instructions.txt HERE]
