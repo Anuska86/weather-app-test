@@ -11,3 +11,11 @@ form {
   flex-direction: column;
   gap: 15px;
 }
+
+.weather-data-container {
+  display: none;
+}
+
+.weather-data-container.visible {
+  display: block;
+}
