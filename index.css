@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgb(181, 216, 181);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

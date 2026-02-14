@@ -2,12 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./index.css" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>weather-app-test</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div class="form-container">
+      <form>
+        <label for="city">Write the name of your city here</label> </br>
+
+        <input
+          type="text"
+          id="city"
+          name="city"
+          placeholder="For example: Rome"
+        /> </br>
+        <button id="submit-button">Submit</button>
+      </form>
+    </div>
+    <script type="module" src="index.js"></script>
   </body>
 </html>
